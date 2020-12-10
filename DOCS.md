@@ -1,10 +1,7 @@
 # Documentation
 
 ## Main
-Helper script with a text-based interface. Has these options:
-- Scan QR (Implemented from QR script)
-- Create xlsx data (Implemented from Data script)
-- Get item by id (Implemented from Item script)
+Helper script with a command interface. Has all options from the other scripts.
 
 ## Item
 Script used to add new items to the text file, or to find items from the text file.
