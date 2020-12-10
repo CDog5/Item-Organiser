@@ -54,3 +54,4 @@ def scan_qr():
         l1,l2 = line.split(",")
         if l1 == data:
             return l1,l2
+    return data
