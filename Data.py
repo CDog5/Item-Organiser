@@ -22,13 +22,11 @@ def create_xlsx_data():
 def create_qr_docx(size,fr,to):
     #fdr is the path to the folder where you want to generate your qr codes
     fdr = ""
-    TO = to + 1
     document = Document()
-
     p = document.add_paragraph()
     r = p.add_run()
     a = []
-    for i in range(fr,TO):
+    for i in range(fr,to+1):
         for filename in os.listdir(fdr):
             if filename.endswith(".png"):
               no = filename.replace(".png","")
